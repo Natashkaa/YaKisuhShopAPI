@@ -1,0 +1,15 @@
+GET https://localhost:7263/GoodImage/GetAll
+
+//GET https://localhost:7263/Good/GetById/7
+
+//DELETE https://localhost:7263/Good/Delete/7
+
+# POST https://localhost:7263/Good/Create
+# Content-Type: application/json
+
+# {
+#     "GoodName": "Balaklava",
+#     "GoodPrice": 600,
+#     "GoodType": 1,
+#     "GoodDescription": "For adult head. Every gangsta wears it. Merinos wool"
+# }
